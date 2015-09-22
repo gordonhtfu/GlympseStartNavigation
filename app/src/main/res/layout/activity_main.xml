@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:background="@drawable/bbmconversation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/startnavigationbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startnavigationbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="400dp"
+        android:layout_marginBottom="110dp" />
+
+    <Button
+        android:background="@drawable/viewmapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewmapbutton"
+        android:layout_alignTop="@+id/startnavigationbutton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="170dp" />
+
+</RelativeLayout>
